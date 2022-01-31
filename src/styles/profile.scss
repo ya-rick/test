@@ -1,0 +1,45 @@
+.user{
+  font-family: sans-serif;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 2.5rem;
+  box-shadow: 0px 10px 10px gray;
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+
+  &__row{
+    margin-top: 1rem;
+    width: 100%;
+  }
+  &__title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.23);
+    padding-bottom: 17px;
+
+    color: #000000;
+  }
+  &__param{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #787272;
+    display: inline-block;
+    width: 287px;
+  }
+  &__value{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+    display: inline-block;
+  }
+}

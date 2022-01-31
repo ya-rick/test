@@ -1,0 +1,13 @@
+.header{
+  height: 67px;
+  background: #000000;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  &__avatar{
+    height: 50px;
+    width: 50px;
+    margin: 0 26px;
+  }
+}

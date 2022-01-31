@@ -1,0 +1,21 @@
+.post{
+  padding: 22px 0;
+  margin: 0 56px 0 9px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: capitalize;
+
+  color: #000000;
+
+  border-bottom: 1px solid #949494;
+  &__title{
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 6px;
+  }
+  &__body{
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
